@@ -1,0 +1,54 @@
+.fullscreen{
+	width: 100vl;
+	height: 100vh;
+	background-color: pink;
+}
+
+body {
+	font-family: arial;
+	margin: 0 auto;
+}
+
+article {
+	margin: 50px auto;
+	max-width: 1600px;
+}
+
+.morango{
+	color: red;
+}
+
+.buttonBox{
+	text-align: center;
+
+}
+
+.block{
+	display: inline-block;
+	border-color: black;
+	background-color: pink;
+	border-width: 2px;
+	padding: 50px;
+	border-style: solid;
+	margin-right: 30px;
+	max-width: 80px;
+}
+
+button{
+	background-color: rgba(224,224,224,0.5);
+	border-radius: 10px;
+	border: none;
+	padding: 20px 50px;
+	cursor: pointer;
+	transition: background .2s;
+
+}
+
+button:hover{
+	box-shadow: 3px 3px 0 rgba(200, 200, 200, 0.8);
+}
+
+button:active{
+	background-color: rgb(214,214,214);
+	box-shadow: 1000px 1000px 0 rgba(172, 172, 172, 1);
+}
